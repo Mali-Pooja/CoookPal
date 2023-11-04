@@ -1,0 +1,454 @@
+* {
+    margin-inline: 6px;
+}
+
+.navbar {
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+}
+
+
+.search {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+    margin-inline: 50px;
+    margin-top: 15px;
+}
+
+.rate {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+.filter {
+    margin-bottom: 15px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: left;
+
+}
+
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+
+}
+
+.search-bar {
+    padding: 12px;
+    border-radius: 2px, 0px, 0px, 2px;
+    gap: 7px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+
+.sec2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.hero-sec {
+    width: 95%;
+    height: 350px;
+    border-radius: 40px;
+    background: url(./images/chi.png) no-repeat center center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-inline: 50px;
+}
+
+.famous {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-inline: 80px;
+    letter-spacing: 10px;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.owner {
+    padding-inline: 80px;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.trending {
+    padding-top: 80px;
+    padding-inline: 80px;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #DC582A;
+}
+
+
+.explore {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px
+}
+
+.my-home {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+    color: #509E2F;
+}
+
+.contents {
+    display: flex;
+}
+
+
+.my-image {
+    display: none;
+}
+
+::placeholder {
+    color: #adadad;
+    font-size: 20px;
+}
+
+.veg-nonvegv {
+    margin: 50px;
+    display: flex;
+}
+
+.allrecepies {
+    width: 236.8px;
+    height: 86px;
+    padding: 30px, 29.8px, 30px, 29px;
+    border-radius: 10px;
+    background: #EAAA00;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background: #509E2F;
+
+}
+
+
+
+.veg {
+    width: 236.8px;
+    height: 86px;
+    padding: 30px, 29.8px, 30px, 29px;
+    border-radius: 10px;
+    background: #C4D600;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.non {
+    width: 236.8px;
+    height: 86px;
+    padding: 30px, 29.8px, 30px, 29px;
+    border-radius: 10px;
+    background: #DC582A;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-cont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-cont label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-cont input[type="radio"] {
+    margin-right: 5px;
+    font-family: Inter;
+    font-size: 200px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+
+.green-box {
+    background-color: #509E2F;
+    width: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: -8px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.hide {
+    position: absolute;
+    top: 30;
+    left: 0;
+    width: 40%;
+    display: none;
+    height: 100vh;
+    background-color: white;
+}
+
+.footer {
+    margin-top: -200px;
+    margin-inline: 90px;
+    display: flex;
+    width: 93%;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-text {
+    outline: auto;
+    width: 200px;
+    height: 30px;
+
+}
+
+.col1 {
+    flex: 1;
+    color: #253D4E;
+}
+
+.col2 {
+    margin-top: 20px;
+    margin-left: 80px;
+    fleX: 1;
+    color: #00000099;
+
+}
+
+.al {
+    padding: 5px;
+}
+
+
+.col1,
+.col2,
+.col3,
+.col4 {
+    flex: 1;
+}
+
+.card {
+
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 289px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.card button {
+    height: 18px;
+}
+
+.card p {
+
+    align-items: center;
+    margin-top: -8px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec1 {
+    width: 10%;
+    /* Adjust the width as needed */
+    padding: 20px;
+}
+
+.sec2 {
+    width: 85%;
+    /*overflow-y: auto;
+    height: 100vh;*/
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .contents {
+        display: none;
+    }
+
+    .navbar {
+        width: 100vw !important;
+        background-color:white;
+    }
+
+    .my-image {
+
+        margin-top: 15px;
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+        padding-inline: 8px;
+        display: inline !important;
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .hero-sec {
+
+        display: flex;
+        margin-top: 10px;
+        margin-inline: 10px;
+        width: 614px;
+        height: 355px;
+        background-image: url(./images/Banner.png);
+
+
+    }
+
+    .trending,
+    .famous,
+    .owner {
+        display: none;
+    }
+
+    .inside-navbar {
+
+        display: flex;
+    }
+
+    .search {
+        font-family: sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        width: 100vw;
+        text-align: left;
+        margin-top: 10px;
+        margin-inline: 50px;
+        margin-top: 15px;
+    }
+
+    .search-bar {
+        margin: auto;
+        width: 100vw;
+    }
+
+    .sec2 {
+        width: 100%;
+    }
+
+    .green-box {
+        display: none;
+    }
+
+    .col3,
+    .col2,
+    .col4 {
+        display: none;
+    }
+
+    .col1>p {
+        font-size: 20px;
+
+    }
+
+    ;
+
+    .veg {
+        font-size: 100px !important;
+    }
+
+    .sec1 {
+        width: 100vh;
+    }
+
+    .filter {
+        font-size: 20px;
+    }
+
+    .sec2 {
+        width: 100vh;
+    }
+}
